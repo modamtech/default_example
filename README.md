@@ -1,6 +1,11 @@
 로그인 화면 만들기 예제 프로그램
 
-main.dart 예시코드
+1. analysis_options.dart 예시코드
+  rules:
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+
+2. main.dart 예시코드
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
